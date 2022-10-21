@@ -1,0 +1,68 @@
+{% extends 'MenuL.html' %}
+{% load static %}
+{% block content %}
+
+
+<section id="about" class="about section-bg">
+    <div class="container" data-aos="fade-up">
+
+
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                <img src="{% static 'img/loginIMG.jpeg' %}" class="img-fluid" >
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+                 data-aos-delay="100">
+
+                <div class="section-title">
+                    <h3><span>Login</span></h3>
+
+                    <div class="  ">
+                            <div class="form-outline form-white mt-3 mb-3">
+                                <label class="form-label" for="typeEmailX">Correo</label>
+                                <input type="email" id="typeEmailX" class="form-control form-control-lg"/>
+                            </div>
+
+                            <div class="form-outline form-white">
+                                <label class="form-label" for="typePasswordX">Contraseña</label>
+                                <input type="password" id="typePasswordX" class="form-control form-control-lg"/>
+                            </div>
+
+                            <p class="small"><a class="text-white-50" href="#!">Olvido su contraseña?</a></p>
+                            <a href="indexL.html">
+                                <button class="btn bg-primary btn-outline-light btn-lg"
+                                        type="submit">Ingresar
+                                </button>
+                            </a>
+
+
+                        <div>
+                            <p class="mb-0">No tienes una cuenta? <a href="registro.html" class="text-white-50 fw-bold">Crear</a></p>
+                        </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</section><!-- End About Section -->
+
+{% endblock %}

@@ -1,0 +1,240 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <h1>Bienvenidos a <span>MiPymes</span></h1>
+      <h2>Aplicación designada a la gestión de pequeñas empresas</h2>
+      <div class="d-flex">
+        <a href="#about" class="btn-get-started scrollto">Empezar</a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Rápida implementación</a></h4>
+              <p class="description">Cuente con tiempos de implementación cortos que permiten a su compañía progresar en el mundo tecnologico.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Siempre disponible</a></h4>
+              <p class="description">Acceda a la información de su empresa en todo momento y desde cualquier lugar.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Información distribuida</a></h4>
+              <p class="description">Analice sus datos de forma sencilla con nuestra herramienta.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Escalable</a></h4>
+              <p class="description">Adáptese al crecimiento de su compañía y a las demandas de cualquier sector económico.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Info</h2>
+          <h3>Descubre mas sobre <span>Nosotros</span></h3>
+          </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="{% static 'img/about.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <h3>¿Qué es MiPyme?.</h3>
+            <p class="fst-italic">
+              Mipyme es una aplicación enfocada en la ayuda administrativa de las pymes, constituida por un conjunto de funcionalidades fáciles de utilizar, que forman una caja de herramientas ideal para la gestión de cualquier microempresa.
+
+
+            </p>
+            <ul>
+              <li>
+                <i class="bx bx-store-alt"></i>
+                <div>
+                  <h5>Las sucursales</h5>
+                  <p>Ayuda a tener el control de todas las sucursales que pueda poseer tu pyme</p>
+                </div>
+              </li>
+              <li>
+                <i class="bx bx-images"></i>
+                <div>
+                  <h5>Manejo de Datos</h5>
+                  <p>Muestra la información de cada sucursal, como lo es los ingresos mensuales, semanales y diarios, la información de los jefes de las sucursales, la información de los empleados de cada sucursal, etc.</p>
+                </div>
+              </li>
+            </ul>
+            <p>
+              El usar nuestra aplicación se busca facilitar la información de cada una sucursal al jefe de la empresa y brindar la mejor experiencia y eficacia a nuestros usuarios
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Servicios</h2>
+          <h3> Nuestros <span>Servicios</span></h3>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Gestión de inventario</a></h4>
+              <p>Organiza mejor el almacén de tu pyme con nuestro sistema de inventario</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Manejo de finanzas</a></h4>
+              <p>Gestiona con facilidad tus cobros y pagos realizados</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Administración de personal</a></h4>
+              <p>Supervisa toda la información relevante de tus empleados con un simple vistazo</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4><a href="">Facturación</a></h4>
+              <p>Crea y registra las facturas de tu microempresa</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4><a href="">Puntos de venta</a></h4>
+              <p>Administra los diferentes puntos de venta que posea tu pyme desde la aplicación</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contacto</h2>
+          <h3><span>Contacta con nosotros </span></h3>
+          <p>También puedes ponerte en contacto con nosotros mediante los siguientes medios</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Nuestra dirección</h3>
+              <p> Cra 122 #6-65, Santiago de Cali</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Nuestro Email</h3>
+              <p>UsbDevelopers@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Llámanos</h3>
+              <p>+57 313 754 8456</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-6 ">
+            <iframe class="mb-4 mb-lg-0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Universidad%20San%20Buenaventura%20de%20cali+(San%20Buenaventura)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen><a href="https://www.gps.ie/car-satnav-gps/">Car Navigation Systems</a></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="nombre" placeholder="Tu Nombre" required>
+                </div>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Tu Email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="tema" id="tema" placeholder="Tema" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Cargando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+
+
+
+{% endblock %}
